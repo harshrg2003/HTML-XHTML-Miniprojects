@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Creating a form</title>
+    </head>
+    <body>
+        <form method="get" action="process.php">
+            <fieldset>
+                <legend>Form with radio buttons</legend>
+                <p>
+                    <label for="Username">Username</label>
+                    <input type="text" name="Username" id="Username" placeholder="Enter your name here"/>
+                </p>
+                <div>
+                    <p>
+                    a) Do you like computer games?</p>
+                    <input type="radio" name="Question1" id="Yes"/>
+                    <label for="Yes">Yes</label><br/>
+                    <input type="radio" name="Question1" id="No"/>
+                    <label for="No">No</label><br/>
+                </div>
+                <div>
+                    <p>
+                    b) How much did you enjoy it?</p>
+                    <input type="radio" name="Question2" id="Question2-Enjoyed" />
+                    <label for="Question2-Enjoyed">I enjoyed it</label><br/>
+                    <input type="radio" name="Question2" id="Question2-DidNotEnjoy"/>
+                    <label for="Question2-DidNotEnjoy">I did not enjoy</label><br/>
+                    <input type="radio" name="Question2" id="Question2-DidNotSee" />
+                    <label for="Question2-DidNotSee">I did not see it</label><br/>
+                </div>
+                <div>
+                    <p>
+                    c) Do you have an email address?</p>
+                    <input type="radio" name="Question3" id="Question3-Yes" />
+                    <label for="Question3-Yes">Yes</label><br/>
+                    <input type="radio" name="Question3" id="Question3-No"/>
+                    <label for="Question3-No">No</label><br/>
+                </div>
+                <div>
+                    <p>
+                    d) Are you an engineering student?</p>
+                    <input type="radio" name="Question4" id="Question4-Yes" />
+                    <label for="Question4-Yes">Yes</label><br/>
+                    <input type="radio" name="Question4" id="Question4-No" />
+                    <label for="Question4-No">No</label><br/>
+                </div>
+                <div>
+                    <p>
+                    e) In which college are you pursuing your professional course?</p>
+                    <input type="radio" name="Question5" id="Question5-RNSIT "/>
+                    <label for="Question5-RNSIT">RNSIT</label><br/>
+                    <input type="radio" name="Question5" id="Question5-SJBIT"/>
+                    <label for="Question5-SJBIT">SJBIT</label><br/>
+                    <input type="radio" name="Question5" id="Question5-PES" />
+                    <label for="Question5-PES">PES University</label><br/>
+                    <input type="radio" name="Question5" id="Question5-BMSIT"/>
+                    <label for="Question5-BMSIT">BMSIT</label><br/>
+                </div>
+                <div>
+                    <p>
+                    f) Which is your favorite sport?</p>
+                    <input type="radio" name="Question6" id="Question6-Hockey"/>
+                    <label for="Question6-Hockey">Hockey</label><br/>
+                    <input type="radio" name="Question6" id="Question6-Volleyball" />
+                    <label for="Question6-Volleyball">Volleyball</label><br/>
+                    <input type="radio" name="Question6" id="Question6-Football" />
+                    <label for="Question6-Football">Football</label><br/>
+                    <input type="radio" name="Question6" id="Question6-Badminton" />
+                    <label for="Question6-Badminton">Badminton</label><br/>
+                </div>
+                <div>
+                    <p>
+                    g) Which is your favorite food?</p>
+                    <input type="radio" name="Question7" id="Question7-MasalaDosa" />
+                    <label for="Question7-MasalaDosa">Masala dosa</label><br/>
+                    <input type="radio" name="Question7" id="Question7-Upma"/>
+                    <label for="Question7-Upma">Upma</label><br/>
+                    <input type="radio" name="Question7" id="Question7-Puri" />
+                    <label for="Question7-Puri">Puri</label><br/>
+                    <input type="radio" name="Question7" id="Question7-IdliVadaSambar"/>
+                    <label for="Question7-IdliVadaSambar">Idli Vada Sambar</label><br/>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

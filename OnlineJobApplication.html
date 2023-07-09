@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<hr xmlns="http://www.w3.org/TR/xhtml1" xml:lang="en" lang="en">
+    <head>
+        <title>
+            Creating an online job application form
+        </title>
+    </head>
+    <body bgcolor="#FFC0CB">
+        <form method="get"action="process.php">
+            <fieldset>
+                <legend>Online Job application form</legend>
+                <h2>Basic details</h2>
+            <div>
+                <p>
+                    <label for="Name">Name:</label>
+                    <input type="text" name="Name"/>
+                </p>
+                <p>
+                    <label for="Nationality">Nationality:</label>
+                    <input type="text" name="Nationality"/>
+                </p>
+                <p>
+                    <label for="Address">Adress:</label>
+                    <textarea name="Adress" cols="30" rows="10"></textarea>
+                </p>
+                <p>
+                    <label for="Telephone number">Telephone number:</label>
+                    <input type="text" name="Telephone no"/>
+                </p>
+                <p>
+                    <label for="Email_ID">Email ID:</label>
+                    <input type="email" name="Email_ID" id="Email_ID" placeholder="Enter ur email"/>
+                </p>
+            </div>
+            <h2>Educational history and qualification and Work experience</h2>
+            <div>
+                <p>
+                    <label for="Name of college">Name of college:</label>
+                    <input type="text" name="Name of college"/>
+                </p>
+                <p>
+                    <label for="Discipline">Discipline</label>
+                    <select name="Branch" id="branch">
+                        <option value="Choose a branch">Choose a branch</option>
+                        <option>Computer science(CSE)</option>
+                        <option>ECE</option>
+                        <option>MECH</option>
+                        <option>CIVIL</option>
+                        <option>EEE</option>
+                        <option>Electronics and instrumentation(EIE)</option>
+                        <option>BIOTECH</option>
+                        <option>CHEMICAL engineering</option>
+                        <option>AI and ML</option>
+                        <option>ISE</option>
+                        <option>others
+                            </option>
+                    </select>
+                </p>
+                <p>
+                    <label for="CGPA">Overall Avg CGPA inclusive of all sems</label>
+                    <input type="text" name="CGPA"/>
+                </p>
+                <p>
+                    <label for="SGPA">SGPA in final sem</label>
+                    <input type="text" name="SGPA"/>
+                </p>
+                <p>
+                    <label for="Projects">Projects done:</label>
+                    <textarea name="Projects done" cols="40" rows="20"></textarea>
+                </p>
+                <p>
+                    <label for="Certificates">Certification courses done:</label>
+                    <textarea name="Certificates" cols="40" rows="20"></textarea>
+                </p>
+                <p>
+                    <label for="Reseach_Publications">Reseach,Coursework or Publications</label>
+                    <textarea name="Publications_Reseach" id="" cols="30" rows="10"></textarea>
+                </p>
+                <p>
+                    <label for="Membership_clubs">Membership of extracurricular clubs or organizations</label>
+                    <textarea name="Clubs_Organizations" id="" cols="30" rows="10"></textarea>
+                </p>
+                <p>
+                    <label for="Internship">Internship after 2<sup>nd</sup>year and 3<sup>rd</sup>year</label>
+                    <textarea name="Internship" id="" cols="30" placeholder="Mention companies in which u have worked as intern"></textarea>
+                </p>
+                <p>
+                    <label for="Qualifications">Qualifications</label>
+                    <textarea name="Qualifications" id="" cols="30"></textarea>
+                </p>
+                
+                <p>
+                    <label for="Work_experience">Work exprience</label>
+                <select name="Work_experience" id="Work_experience">
+                    <option value="Choose the number of years of work experience">Choose no of years of work experience</option>
+                    <option>No prior experience</option>
+                    <option>1 year</option>
+                    <option>2 years</option>
+                    <option>3 years</option>
+                    <option>4 years</option>
+                    <option>5 years</option>
+                    <option>6 years</option>
+                    <option>7 years</option>
+                    <option>8 years</option>
+                    <option>9 years</option>
+                    <option>10 years</option>
+                </select>
+                </p>
+            </div>
+            <h2>References</h2>
+            <div>
+                <p>
+                    <h3>Referee 1</h3>
+                    <label for="Ref1">Referee1 name</label>
+                    <input type="text" name="Ref1" id="Ref1"/><br>
+                    <label for="Ref1">Referee1 occupation</label>
+                    <input type="text" name="Ref1" id="Ref1"/><br>
+                    <label for="Ref1">Referee1 Relationship</label>
+                    <input type="text" name="Ref1" id="Ref1"/><br>
+                    <label for="Ref1">Referee1 Adress</label>
+                    <textarea name="Ref1" id="Ref1" cols="30" rows="10"></textarea><br>
+                </p>
+                <p>
+                    <h3>Referee 2</h3>
+                    <label for="Ref2">Referee2 name</label>
+                    <input type="text" name="Ref2" id="Ref2"/><br>
+                    <label for="Ref2">Referee2 occupation</label>
+                    <input type="text" name="Ref1" id="Ref2"/><br>
+                    <label for="Ref2">Referee2 Relationship</label>
+                    <input type="text" name="Ref2" id="Ref2"/><br>
+                    <label for="Ref2">Referee2 Adress</label>
+                    <textarea name="Ref2" id="Ref2" cols="30" rows="10"></textarea><br>
+                </p>
+            </div>
+            
+            </fieldset>
+        </form>
+    </body>
