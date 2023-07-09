@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<hr xmlns="http://www.w3.org/TR/xhtml1" xml:lang="en" lang="en">
+    <head>
+        <title>
+            Creating a form
+        </title>
+    </head>
+    <body>
+    <form method="get"action="process.php">
+        <fieldset>
+           <legend>Student form</legend>
+               <p>
+                <label>First name</label>
+                <input type="text" name="First name"/>
+               </p>
+               <p>
+                <label>Last name</label>
+                <input type="text" name="Last name">
+               </p>
+               <p>  
+                  <label>Branch</label>
+                  <select name="Branch" id="">
+                    <option>Choose a branch</option>
+                    <option>CSE</option>
+                    <option>MECH</option>
+                    <option>ECE</option>
+                    <option>Civil</option>
+                  </select>
+               </p>
+               <p>
+                <label>Adress</label>
+                <textarea name="adress"  cols="30" rows="10"></textarea>
+               </p>
+            <button type="submit">Submit</button>
+
+
+
+        </fieldset>
+    </form>
+      
+
+
+    </body>
+</html>    
